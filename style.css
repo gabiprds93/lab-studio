@@ -1,0 +1,142 @@
+*
+{
+    outline: 1px solid red;
+    box-sizing: border-box;
+}
+.text-uppercase
+{
+  text-transform: uppercase;
+}
+header
+{
+    position: relative;
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 750px;
+}
+header nav
+{
+    margin-top: 20px;
+}
+header nav h4
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    color: #f3ba2c;
+}
+header nav ul
+{
+    line-height: 70px;
+    text-align: right;
+}
+nav a
+{
+    color: white;
+}
+.navbar-toggle
+{
+    background-color: #fed136;
+}
+.navbar-toggle .icon-bar
+{
+    background-color: white;
+}
+header .action
+{
+    margin-top: 25%;
+}
+header .action h1
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+header .btn
+{
+    padding-top: 20px;
+    width: 200px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    background-color: #fed136;
+    font-size: 20px
+}
+.servicio h1
+{
+    font-weight: bold;
+    padding-top: 5%;
+}
+.servicio .circulo
+{
+    width: 100px;
+    height: 100px;
+    background-color: #fed136;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+.servicio i
+{
+    color: white;
+    font-size: 50px;
+    padding: 25%;
+}
+.portfolio
+{
+    background-color: #eeeeee;
+}
+#about .img-circle
+{
+    border: 5px solid #eeeeee;
+}
+#about .circulo
+{
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 52px;
+    background-color: #fed136;
+    border-radius: 50%;
+    border: 5px solid #eeeeee;
+    font-size: 140%;
+    font-weight: bold;
+}
+#team
+{
+    background-color: #eeeeee;
+}
+#team .img-circle
+{
+    border: 5px solid white;
+}
+.icono
+{
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 10px;
+    margin-bottom: 17px;
+}
+#marcas .marca
+{
+    margin: 40px 0;
+}
+#contact
+{
+    color: white;
+    background-image: url(img/map-image.png);
+    background-color: black;
+}
+#contact input
+{
+    width: 100%;
+    margin-bottom: 2%;
+}
+#contact textarea
+{
+    width: 100%;
+}
